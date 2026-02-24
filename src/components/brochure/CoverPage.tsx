@@ -14,7 +14,7 @@ const CoverPage = () => {
       <div className="relative z-10 flex flex-col h-full min-h-[297mm] px-16 py-12">
         {/* Logo */}
         <div className="mb-auto">
-          <img src={logo} alt="FASTEP ARABIA" className="h-16 brightness-0 invert" />
+          <img src={logo} alt="FASTEP ARABIA" className="h-24 bg-primary-foreground/90 px-4 py-2 rounded" />
         </div>
 
         {/* Main Title */}
