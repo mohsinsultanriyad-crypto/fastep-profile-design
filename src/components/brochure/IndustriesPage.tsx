@@ -19,7 +19,7 @@ const IndustriesPage = () => {
       {/* Dark header section */}
       <div className="bg-charcoal px-16 py-12">
         <div className="flex items-center justify-between mb-8">
-          <img src={logo} alt="FASTEP ARABIA" className="h-10 brightness-0 invert" />
+          <img src={logo} alt="FASTEP ARABIA" className="h-16" />
           <span className="font-body text-xs text-primary-foreground/60 tracking-widest uppercase">Industries Served</span>
         </div>
 

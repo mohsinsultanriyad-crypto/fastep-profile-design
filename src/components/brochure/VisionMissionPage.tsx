@@ -13,7 +13,7 @@ const VisionMissionPage = () => {
 
       <div className="px-16 py-8 flex-1 flex flex-col">
         <div className="flex items-center justify-between mb-8">
-          <img src={logo} alt="FASTEP ARABIA" className="h-10" />
+          <img src={logo} alt="FASTEP ARABIA" className="h-16" />
           <span className="font-body text-xs text-muted-foreground tracking-widest uppercase">Vision & Mission</span>
         </div>
 

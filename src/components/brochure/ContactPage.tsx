@@ -11,7 +11,7 @@ const ContactPage = () => {
           <img src={coverImg} alt="" className="w-full h-full object-cover" />
         </div>
         <div className="relative z-10">
-          <img src={logo} alt="FASTEP ARABIA" className="h-14 brightness-0 invert mb-8" />
+          <img src={logo} alt="FASTEP ARABIA" className="h-20 mb-8" />
           <div className="section-divider section-divider-white mb-3" />
           <h2 className="font-heading text-4xl font-bold text-primary-foreground mb-4">Contact Us</h2>
           <p className="font-body text-sm text-primary-foreground/70 max-w-lg">
@@ -62,7 +62,7 @@ const ContactPage = () => {
 
         {/* Company logo centered */}
         <div className="mt-auto border-t border-border pt-8 flex items-center justify-between">
-          <img src={logo} alt="FASTEP ARABIA" className="h-12" />
+          <img src={logo} alt="FASTEP ARABIA" className="h-16" />
           <div className="text-right">
             <p className="font-heading text-sm font-bold text-foreground">FASTEP ARABIA</p>
             <p className="font-body text-xs text-muted-foreground">Advanced Security & Surveillance Solutions</p>
