@@ -7,14 +7,14 @@ const CoverPage = () => {
       {/* Full background image */}
       <div className="absolute inset-0">
         <img src={coverImg} alt="Industrial facility" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-charcoal/70" />
+        <div className="absolute inset-0 bg-[hsl(210,40%,20%)]/65" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col h-full min-h-[297mm] px-16 py-12">
         {/* Logo */}
         <div className="mb-auto">
-          <img src={logo} alt="FASTEP ARABIA" className="h-24 bg-primary-foreground/90 px-4 py-2 rounded" />
+          <img src={logo} alt="FASTEP ARABIA" className="h-28" />
         </div>
 
         {/* Main Title */}
