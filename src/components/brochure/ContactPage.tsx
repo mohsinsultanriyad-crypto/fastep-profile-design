@@ -8,9 +8,9 @@ const ContactPage = () => {
       {/* Top dark section */}
       <div className="bg-charcoal px-16 py-12 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <img src={coverImg} alt="" className="w-full h-full object-cover" />
+          <img src={coverImg} alt="" className="w-full h-full object-cover border-black/0" />
         </div>
-        <div className="relative z-10">
+        <div className="relative z-10 border-black/0">
           <img src={logo} alt="FASTEP ARABIA" className="h-20 mb-8" />
           <div className="section-divider section-divider-white mb-3" />
           <h2 className="font-heading text-4xl font-bold text-primary-foreground mb-4">Contact Us</h2>
@@ -51,8 +51,8 @@ const ContactPage = () => {
                 size={180}
                 bgColor="white"
                 fgColor="#2F343A"
-                level="H"
-              />
+                level="H" />
+
             </div>
             <p className="font-body text-xs text-muted-foreground mt-4 text-center">
               Scan to download<br />Company Profile
@@ -73,8 +73,8 @@ const ContactPage = () => {
           <span className="font-body text-xs text-muted-foreground">08</span>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default ContactPage;

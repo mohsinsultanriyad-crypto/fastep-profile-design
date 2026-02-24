@@ -25,7 +25,7 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="w-52 shrink-0 flex items-end justify-center">
-          <img src={engineerPointing} alt="FASTEP engineer" className="h-72 object-contain" />
+          
         </div>
       </div>
 
@@ -42,23 +42,23 @@ const AboutPage = () => {
       {/* Key stats */}
       <div className="grid grid-cols-3 gap-6 mt-auto">
         {[
-          { value: "Industrial", label: "Mega-Project Capability" },
-          { value: "24/7", label: "Technical Support" },
-          { value: "Certified", label: "Engineering Team" },
-        ].map((stat) => (
-          <div key={stat.label} className="border-t-2 border-primary pt-4">
+        { value: "Industrial", label: "Mega-Project Capability" },
+        { value: "24/7", label: "Technical Support" },
+        { value: "Certified", label: "Engineering Team" }].
+        map((stat) =>
+        <div key={stat.label} className="border-t-2 border-primary pt-4">
             <p className="font-heading text-2xl font-bold text-primary">{stat.value}</p>
             <p className="font-body text-sm text-muted-foreground mt-1">{stat.label}</p>
           </div>
-        ))}
+        )}
       </div>
 
       {/* Page number */}
       <div className="mt-8 flex justify-end">
         <span className="font-body text-xs text-muted-foreground">02</span>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default AboutPage;
