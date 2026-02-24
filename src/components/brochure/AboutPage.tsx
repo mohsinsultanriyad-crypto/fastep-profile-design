@@ -7,7 +7,7 @@ const AboutPage = () => {
     <div className="a4-page flex flex-col px-16 py-12">
       {/* Header */}
       <div className="flex items-center justify-between mb-10">
-        <img src={logo} alt="FASTEP ARABIA" className="h-10" />
+        <img src={logo} alt="FASTEP ARABIA" className="h-16" />
         <span className="font-body text-xs text-muted-foreground tracking-widest uppercase">About Us</span>
       </div>
 
