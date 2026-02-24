@@ -1,5 +1,6 @@
 import controlRoom from "@/assets/control-room.jpg";
 import engineersImg from "@/assets/engineers-installing.jpg";
+import engineerPointing from "@/assets/engineer-pointing.png";
 import logo from "@/assets/fastep-logo.png";
 
 const AboutPage = () => {
@@ -14,21 +15,27 @@ const AboutPage = () => {
       <div className="section-divider mb-3" />
       <h2 className="font-heading text-4xl font-bold text-foreground mb-8">About FASTEP ARABIA</h2>
 
-      <p className="font-body text-base text-foreground/80 leading-relaxed mb-6 max-w-2xl">
-        FASTEP ARABIA is a specialized system integrator delivering high-end security, surveillance, and low-current solutions for Saudi Arabia's industrial backbone. We provide design, supply, installation, testing, commissioning, and maintenance of integrated security and communication systems.
-      </p>
-
-      <p className="font-body text-base text-foreground/80 leading-relaxed mb-10 max-w-2xl">
-        With a proven track record in supporting mega-scale industrial projects, FASTEP ARABIA combines technical expertise with a deep understanding of the Kingdom's critical infrastructure requirements. Our team of certified engineers ensures every project meets the highest international standards.
-      </p>
+      <div className="flex gap-8 mb-10">
+        <div className="flex-1">
+          <p className="font-body text-base text-foreground/80 leading-relaxed mb-6">
+            FASTEP ARABIA is a specialized system integrator delivering high-end security, surveillance, and low-current solutions for Saudi Arabia's industrial backbone. We provide design, supply, installation, testing, commissioning, and maintenance of integrated security and communication systems.
+          </p>
+          <p className="font-body text-base text-foreground/80 leading-relaxed">
+            With a proven track record in supporting mega-scale industrial projects, FASTEP ARABIA combines technical expertise with a deep understanding of the Kingdom's critical infrastructure requirements. Our team of certified engineers ensures every project meets the highest international standards.
+          </p>
+        </div>
+        <div className="w-52 shrink-0 flex items-end justify-center">
+          <img src={engineerPointing} alt="FASTEP engineer" className="h-72 object-contain" />
+        </div>
+      </div>
 
       {/* Two images side by side */}
       <div className="grid grid-cols-2 gap-4 mb-10">
         <div className="overflow-hidden">
-          <img src={controlRoom} alt="Surveillance control room" className="w-full h-56 object-cover" />
+          <img src={controlRoom} alt="Surveillance control room" className="w-full h-48 object-cover" />
         </div>
         <div className="overflow-hidden">
-          <img src={engineersImg} alt="Engineers at work" className="w-full h-56 object-cover" />
+          <img src={engineersImg} alt="Engineers at work" className="w-full h-48 object-cover" />
         </div>
       </div>
 
