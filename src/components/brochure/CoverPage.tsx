@@ -11,7 +11,7 @@ const CoverPage = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col h-full min-h-[297mm] px-16 py-12">
+      <div className="relative z-10 flex flex-col h-full min-h-[297mm] px-16 py-12 bg-black/0">
         {/* Logo */}
         <div className="mb-auto">
           <img src={logo} alt="FASTEP ARABIA" className="h-28" />
@@ -40,8 +40,8 @@ const CoverPage = () => {
           </p>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default CoverPage;

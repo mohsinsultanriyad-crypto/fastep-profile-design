@@ -7,7 +7,7 @@ const VisionMissionPage = () => {
       {/* Top image band */}
       <div className="h-64 overflow-hidden relative">
         <img src={industrialPlant} alt="Industrial plant" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-charcoal/40" />
+        <div className="absolute inset-0 bg-charcoal/40 border-black/0" />
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-background" style={{ clipPath: 'polygon(0 100%, 100% 100%, 100% 0)' }} />
       </div>
 
@@ -40,16 +40,16 @@ const VisionMissionPage = () => {
           <h3 className="font-heading text-xl font-bold text-primary-foreground mb-6">Core Values</h3>
           <div className="grid grid-cols-4 gap-6">
             {[
-              { title: "Excellence", desc: "Highest engineering standards in every project" },
-              { title: "Integrity", desc: "Transparent and ethical business practices" },
-              { title: "Innovation", desc: "Adopting latest security technologies" },
-              { title: "Reliability", desc: "Consistent and dependable project delivery" },
-            ].map((v) => (
-              <div key={v.title}>
+            { title: "Excellence", desc: "Highest engineering standards in every project" },
+            { title: "Integrity", desc: "Transparent and ethical business practices" },
+            { title: "Innovation", desc: "Adopting latest security technologies" },
+            { title: "Reliability", desc: "Consistent and dependable project delivery" }].
+            map((v) =>
+            <div key={v.title}>
                 <p className="font-heading text-sm font-bold text-primary mb-2">{v.title}</p>
                 <p className="font-body text-xs text-primary-foreground/70 leading-relaxed">{v.desc}</p>
               </div>
-            ))}
+            )}
           </div>
         </div>
 
@@ -57,8 +57,8 @@ const VisionMissionPage = () => {
           <span className="font-body text-xs text-muted-foreground">03</span>
         </div>
       </div>
-    </div>
-  );
+    </div>);
+
 };
 
 export default VisionMissionPage;
