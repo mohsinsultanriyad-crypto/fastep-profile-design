@@ -1,5 +1,5 @@
-import industrialPlant from "@/assets/industrial-plant.jpg";
-import smartLock from "@/assets/smart-lock.jpeg";
+import serverRoom from "@/assets/server-room.jpg";
+import cctvCamera from "@/assets/cctv-camera.jpg";
 import logo from "@/assets/fastep-logo.png";
 
 const VisionMissionPage = () => {
@@ -8,11 +8,11 @@ const VisionMissionPage = () => {
       {/* Top image band */}
       <div className="h-64 overflow-hidden relative grid grid-cols-2">
         <div className="relative h-full">
-          <img src={industrialPlant} alt="Industrial plant" className="w-full h-full object-cover" />
+          <img src={serverRoom} alt="Server room infrastructure" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-primary/15" />
         </div>
         <div className="relative h-full">
-          <img src={smartLock} alt="Smart security lock" className="w-full h-full object-cover" />
+          <img src={cctvCamera} alt="CCTV surveillance camera" className="w-full h-full object-cover" />
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-background" style={{ clipPath: 'polygon(0 100%, 100% 100%, 100% 0)' }} />
       </div>

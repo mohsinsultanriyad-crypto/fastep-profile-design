@@ -1,5 +1,5 @@
-import dashboardImg from "@/assets/cctv-monitoring.jpeg";
-import commTower from "@/assets/biometric-security.jpeg";
+import dashboardImg from "@/assets/monitoring-dashboard.jpg";
+import commTower from "@/assets/comm-tower.jpg";
 import logo from "@/assets/fastep-logo.png";
 
 const capabilities = [

@@ -1,6 +1,6 @@
 import industrialPlant from "@/assets/industrial-plant.jpg";
-import technicianInstall from "@/assets/technician-installation.jpeg";
-import videoIntercom from "@/assets/video-intercom.jpeg";
+import fiberOptic from "@/assets/fiber-optic.jpg";
+import accessControl from "@/assets/access-control.jpg";
 import logo from "@/assets/fastep-logo.png";
 
 const industries = [
@@ -33,8 +33,8 @@ const IndustriesPage = () => {
       {/* Images strip */}
       <div className="grid grid-cols-3 h-40">
         <img src={industrialPlant} alt="Industrial plant" className="w-full h-full object-cover" />
-        <img src={technicianInstall} alt="Technician installing security system" className="w-full h-full object-cover" />
-        <img src={videoIntercom} alt="Video intercom system" className="w-full h-full object-cover" />
+        <img src={fiberOptic} alt="Fiber optic infrastructure" className="w-full h-full object-cover" />
+        <img src={accessControl} alt="Access control system" className="w-full h-full object-cover" />
       </div>
 
       {/* Industries list */}
