@@ -1,6 +1,6 @@
 import smartLock from "@/assets/smart-lock.jpeg";
 import biometricSecurity from "@/assets/biometric-security.jpeg";
-import videoIntercom from "@/assets/video-intercom.jpeg";
+import technicianInstall from "@/assets/technician-installation.jpeg";
 import cctvMonitoring from "@/assets/cctv-monitoring.jpeg";
 import controlRoom from "@/assets/control-room.jpg";
 import cyberImg from "@/assets/cyber-security.jpg";
@@ -10,7 +10,7 @@ const services = [
   { title: "CCTV System Design & Installation", desc: "IP, Analog & Thermal Cameras with full system integration", img: cctvMonitoring },
   { title: "Smart Locks & Access Control", desc: "Keypad, biometric and smart lock solutions for facility access", img: smartLock },
   { title: "Biometric & Identity Systems", desc: "Fingerprint, facial recognition and multi-factor authentication", img: biometricSecurity },
-  { title: "Video Intercom Systems", desc: "IP-based video intercoms with mobile app integration", img: videoIntercom },
+  { title: "Professional Installation Services", desc: "Certified technicians installing low-current security systems", img: technicianInstall },
   { title: "Control Room & Video Wall Solutions", desc: "Command center design with multi-screen video wall integration", img: controlRoom },
   { title: "Cyber Security & Network Protection", desc: "Industrial-grade network security and threat monitoring", img: cyberImg },
 ];
