@@ -1,6 +1,6 @@
 import industrialPlant from "@/assets/industrial-plant.jpg";
-import serverRoom from "@/assets/server-room.jpg";
-import engineersImg from "@/assets/engineers-installing.jpg";
+import technicianInstall from "@/assets/technician-installation.jpeg";
+import videoIntercom from "@/assets/video-intercom.jpeg";
 import logo from "@/assets/fastep-logo.png";
 
 const industries = [
@@ -16,16 +16,16 @@ const industries = [
 const IndustriesPage = () => {
   return (
     <div className="a4-page flex flex-col">
-      {/* Dark header section */}
-      <div className="bg-charcoal px-16 py-12">
+      {/* Light header section */}
+      <div className="bg-secondary px-16 py-12">
         <div className="flex items-center justify-between mb-8">
           <img src={logo} alt="FASTEP ARABIA" className="h-16" />
-          <span className="font-body text-xs text-primary-foreground/60 tracking-widest uppercase">Industries Served</span>
+          <span className="font-body text-xs text-muted-foreground tracking-widest uppercase">Industries Served</span>
         </div>
 
-        <div className="section-divider section-divider-white mb-3" />
-        <h2 className="font-heading text-4xl font-bold text-primary-foreground mb-4">Industries Served</h2>
-        <p className="font-body text-sm text-primary-foreground/70 max-w-lg">
+        <div className="section-divider mb-3" />
+        <h2 className="font-heading text-4xl font-bold text-foreground mb-4">Industries Served</h2>
+        <p className="font-body text-sm text-foreground/70 max-w-lg">
           Delivering specialized security solutions across Saudi Arabia's most demanding industrial sectors.
         </p>
       </div>
@@ -33,8 +33,8 @@ const IndustriesPage = () => {
       {/* Images strip */}
       <div className="grid grid-cols-3 h-40">
         <img src={industrialPlant} alt="Industrial plant" className="w-full h-full object-cover" />
-        <img src={serverRoom} alt="Server room" className="w-full h-full object-cover" />
-        <img src={engineersImg} alt="Engineers" className="w-full h-full object-cover" />
+        <img src={technicianInstall} alt="Technician installing security system" className="w-full h-full object-cover" />
+        <img src={videoIntercom} alt="Video intercom system" className="w-full h-full object-cover" />
       </div>
 
       {/* Industries list */}
