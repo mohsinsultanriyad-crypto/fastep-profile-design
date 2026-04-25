@@ -7,7 +7,7 @@ const CoverPage = () => {
       {/* Full background image */}
       <div className="absolute inset-0">
         <img src={coverImg} alt="Industrial facility" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-[hsl(210,40%,20%)]/65" />
+        <div className="absolute inset-0 bg-[hsl(209,43%,30%)]/45" />
       </div>
 
       {/* Content */}
