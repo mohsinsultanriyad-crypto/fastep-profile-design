@@ -1,13 +1,19 @@
 import industrialPlant from "@/assets/industrial-plant.jpg";
+import smartLock from "@/assets/smart-lock.jpeg";
 import logo from "@/assets/fastep-logo.png";
 
 const VisionMissionPage = () => {
   return (
     <div className="a4-page flex flex-col">
       {/* Top image band */}
-      <div className="h-64 overflow-hidden relative">
-        <img src={industrialPlant} alt="Industrial plant" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-charcoal/40 border-black/0" />
+      <div className="h-64 overflow-hidden relative grid grid-cols-2">
+        <div className="relative h-full">
+          <img src={industrialPlant} alt="Industrial plant" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-primary/15" />
+        </div>
+        <div className="relative h-full">
+          <img src={smartLock} alt="Smart security lock" className="w-full h-full object-cover" />
+        </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-background" style={{ clipPath: 'polygon(0 100%, 100% 100%, 100% 0)' }} />
       </div>
 
@@ -36,8 +42,8 @@ const VisionMissionPage = () => {
         </div>
 
         {/* Core Values */}
-        <div className="mt-auto bg-charcoal p-8">
-          <h3 className="font-heading text-xl font-bold text-primary-foreground mb-6">Core Values</h3>
+        <div className="mt-auto bg-secondary border-l-4 border-primary p-8">
+          <h3 className="font-heading text-xl font-bold text-foreground mb-6">Core Values</h3>
           <div className="grid grid-cols-4 gap-6">
             {[
             { title: "Excellence", desc: "Highest engineering standards in every project" },
@@ -47,7 +53,7 @@ const VisionMissionPage = () => {
             map((v) =>
             <div key={v.title}>
                 <p className="font-heading text-sm font-bold text-primary mb-2">{v.title}</p>
-                <p className="font-body text-xs text-primary-foreground/70 leading-relaxed">{v.desc}</p>
+                <p className="font-body text-xs text-foreground/70 leading-relaxed">{v.desc}</p>
               </div>
             )}
           </div>

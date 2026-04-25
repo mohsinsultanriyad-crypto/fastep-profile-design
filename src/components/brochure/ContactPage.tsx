@@ -5,16 +5,16 @@ import coverImg from "@/assets/cover-industrial.jpg";
 const ContactPage = () => {
   return (
     <div className="a4-page flex flex-col">
-      {/* Top dark section */}
-      <div className="bg-charcoal px-16 py-12 relative overflow-hidden">
+      {/* Top light section */}
+      <div className="bg-secondary px-16 py-12 relative overflow-hidden border-b-4 border-primary">
         <div className="absolute inset-0 opacity-10">
-          <img src={coverImg} alt="" className="w-full h-full object-cover border-black/0" />
+          <img src={coverImg} alt="" className="w-full h-full object-cover" />
         </div>
-        <div className="relative z-10 border-black/0">
+        <div className="relative z-10">
           <img src={logo} alt="FASTEP ARABIA" className="h-20 mb-8" />
-          <div className="section-divider section-divider-white mb-3" />
-          <h2 className="font-heading text-4xl font-bold text-primary-foreground mb-4">Contact Us</h2>
-          <p className="font-body text-sm text-primary-foreground/70 max-w-lg">
+          <div className="section-divider mb-3" />
+          <h2 className="font-heading text-4xl font-bold text-foreground mb-4">Contact Us</h2>
+          <p className="font-body text-sm text-foreground/70 max-w-lg">
             Partner with FASTEP ARABIA for your next industrial security project. Our team is ready to deliver tailored solutions for your specific requirements.
           </p>
         </div>
